@@ -1,0 +1,23 @@
+html, body{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+html, body, h1{
+    margin: 0;
+}
+body{
+    background: #003973;
+    background: linear-gradient(356deg, rgba(0,153,204,1) 30%, rgba(54,204,255,1) 60%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    position: relative;
+    top: 30px;
+    font-size: 2.2em;
+    letter-spacing: 0.15em;
+    text-align: center;
+    color: hsl(195, 80%, 40%);
+}
